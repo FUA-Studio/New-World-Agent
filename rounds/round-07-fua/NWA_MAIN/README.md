@@ -1,1 +1,27 @@
-IyBOV0FfTUFJTiDlpJrlubPlj7DmiJDlk4HvvIhBUEsgLyBMSU5VWCAvIENMSSAvIEdVSe+8iQoKYE5XQV9NQUlOL2Ag5a2Y5pS+5ZCE5bmz5Y+w5oiQ5ZOB77yMYE5XQV9TUkMvYCDlrZjmlL7mupDnoIHjgIIKCiMjIGFydGlmYWN0cy/vvIjmnKzova7lrp7pmYXkuqflh7rvvIkKCnwg5paH5Lu2IHwg57G75Z6LIHwg6K+05piOIHwKfC0tLS0tLXwtLS0tLS18LS0tLS0tfAp8IGBud2EtbGludXhgIHwgKipFTEYg5LqM6L+b5Yi2KirvvIh4ODYtNjTvvIxMaW51eC9DTEkg5oiQ5ZOB77yJIHwgYC4vbndhLWxpbnV4IC0taGVscGAg55u05o6l6LeR77yM5YaF5bWM5YWo6YOo5rqQ56CB77yM6aaW6LeR6Kej5YiwIGB+Ly5ud2FfcGtnYCDlho3osIPns7vnu58gcHl0aG9uMyB8CnwgYG53YS1ndWktbGludXhgIHwgKipFTEYg5LqM6L+b5Yi2KirvvIh4ODYtNjTvvIxMaW51eC9HVUkg5oiQ5ZOB77yJIHwgYC4vbndhLWd1aS1saW51eGDvvIjpnIDns7vnu5/oo4UgcHl0aG9uMy10a++8iSB8CnwgYG53YS1hbmRyb2lkLWFzc2V0cy56aXBgIHwg5Li05pe26LWE5rqQ5YyF77yIKirkuI3mmK8qKiBBUEvvvIwqKuS4jeaYryoqIEVMRu+8iSB8IOWGheWuueWPquaciSBBbmRyb2lkTWFuaWZlc3QueG1sICsgTldBIFB5dGhvbiDmupDnoIHvvIznu5kgVGVybXV4IOebtOaOpei3keeUqO+8myoq55yfIC5hcGsg5pys5py657yW5LiN5Ye65p2lKiogfAoKIyMg6K+05piO77yI5aaC5a6e5qCH5rOo77yJCgotICoq5a6J5Y2T55yfIC5hcGsg5Ye65LiN5LqGKirvvJrmnKzmnLrmsqHmnIkgYWFwdDIvZDgvYXBrc2lnbmVyL2dyYWRsZSDlronljZPlt6Xlhbfpk77vvIzkuZ/msqHnvZHkuIvovb3jgIIKICDlnKjoo4XkuoYgQW5kcm9pZCBTREsg55qE5py65Zmo5LiK6LeRIGBhbmRyb2lkL2J1aWxkLWFway5zaGAg5omN6IO95Ye655yfIC5hcGvjgIIKICDkuIrpnaLnmoQgemlwIOWPquaYryLmsqEgU0RLIOaXtuWFiOWcqCBUZXJtdXgg6YeM6LeR6LW35p2lIueahOi/h+a4oeWMhe+8jOS4jeeul+aIkOWTgeOAggotICoqV2luZG93cyAuZXhlIC8gQW5kcm9pZCBBUEsqKu+8muWQjue7reaMiSBGQ0Qg5Yqe5rOV77yIUHlJbnN0YWxsZXIrTlNJU+OAgWdyYWRsZStweXRob24tZm9yLWFuZHJvaWTvvInooaXlgZrov73liqDvvIzmnKzniYjlhYjkuqQgTElOVVgg55yfIEVMRiDkuKTku7blpZfjgIIKCiMjIOaehOW7uuiEmuacrAoKYGBgCk5XQV9NQUlOL2J1aWxkLyAgICAgICAgICAgICAgQyDljZXmlofku7blkK/liqjlmajmupDnoIHvvIhFTEYg5bCx5piv55So5a6D5ZyoIFdTTCDph4wgZ2NjIOe8luWHuuadpeeahO+8iQpOV0FfTUFJTi9hbmRyb2lkL2J1aWxkLWFway5zaCAgIOWHuuecnyBBUEvvvIjpnIAgU0RL77yJCmBgYAoK5Li76aKY57uf5LiA5rex57u/ICsg6ZO254Gw77yI5Y+W5YC86KeBIE5XQV9TUkMvdGhlbWUucHnvvInjgIIK
+# NWA_MAIN 多平台成品（APK / LINUX / CLI / GUI）
+
+`NWA_MAIN/` 存放各平台成品，`NWA_SRC/` 存放源码。
+
+## artifacts/（本轮实际产出）
+
+| 文件 | 类型 | 说明 |
+|------|------|------|
+| `nwa-linux` | **ELF 二进制**（x86-64，Linux/CLI 成品） | `./nwa-linux --help` 直接跑，内嵌全部源码，首跑解到 `~/.nwa_pkg` 再调系统 python3 |
+| `nwa-gui-linux` | **ELF 二进制**（x86-64，Linux/GUI 成品） | `./nwa-gui-linux`（需系统装 python3-tk） |
+| `nwa-android-assets.zip` | 临时资源包（**不是** APK，**不是** ELF） | 内容只有 AndroidManifest.xml + NWA Python 源码，给 Termux 直接跑用；**真 .apk 本机编不出来** |
+
+## 说明（如实标注）
+
+- **安卓真 .apk 出不了**：本机没有 aapt2/d8/apksigner/gradle 安卓工具链，也没网下载。
+  在装了 Android SDK 的机器上跑 `android/build-apk.sh` 才能出真 .apk。
+  上面的 zip 只是"没 SDK 时先在 Termux 里跑起来"的过渡包，不算成品。
+- **Windows .exe / Android APK**：后续按 FCD 办法（PyInstaller+NSIS、gradle+python-for-android）补做追加，本版先交 LINUX 真 ELF 两件套。
+
+## 构建脚本
+
+```
+NWA_MAIN/build/              C 单文件启动器源码（ELF 就是用它在 WSL 里 gcc 编出来的）
+NWA_MAIN/android/build-apk.sh   出真 APK（需 SDK）
+```
+
+主题统一深绿 + 银灰（取值见 NWA_SRC/theme.py）。
