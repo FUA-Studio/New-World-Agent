@@ -1,1 +1,40 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIi55Sf5oiQIG53YV9iNjQuaO+8muaKiiBOV0FfU1JDLyoucHkgKyBtYWluLnB5ICsgbndhX2d1aS5weSDlhoXltYzkuLogQyDlrZfnrKbkuLLvvIwK5L6bIGJ1aWxkL253YV9hcHAuYyDnvJbor5HljZXmlofku7bkuozov5vliLbvvIhFTEYg5oiWIE1pbkdXIOS6pOWPiee8luivkSBleGXvvInjgIIKCueUqOazlToKICBweXRob24zIGdlbmVyYXRlX2I2NC5weSA85rqQ56CB55uu5b2VPiBb6L6T5Ye65aS05paH5Lu2XQogIOa6kOeggeebruW9lSA9IOWQqyBtYWluLnB5IOS4jiBOV0FfU1JDLyDnmoTpgqPkuIDlsYLvvIjlpoIgcm91bmRzL3JvdW5kLTA3LWZ1Ye+8iQoK54S25ZCOOgogIGdjYyAtTzIgLUkuIC1ERU5UUlk9JyJtYWluLnB5IicgLW8gbndhLWxpbnV4IG53YV9hcHAuYyAgICAgICAgICAjIEVMRgogIHg4Nl82NC13NjQtbWluZ3czMi1nY2MgLU8yIC1JLiAtREVOVFJZPScibWFpbi5weSInIC1vIG53YS13aW4uZXhlIG53YV9hcHAuYyAgIyBleGUKIiIiCmltcG9ydCBiYXNlNjQKaW1wb3J0IG9zCmltcG9ydCBzeXMKCnJvb3QgPSBzeXMuYXJndlsxXSBpZiBsZW4oc3lzLmFyZ3YpID4gMSBlbHNlICIuIgpvdXQgPSBzeXMuYXJndlsyXSBpZiBsZW4oc3lzLmFyZ3YpID4gMiBlbHNlIG9zLnBhdGguam9pbihyb290LCAibndhX2I2NC5oIikKCmZpbGVzID0ge30KbWFpbl9weSA9IG9zLnBhdGguam9pbihyb290LCAibWFpbi5weSIpCmlmIG9zLnBhdGguZXhpc3RzKG1haW5fcHkpOgogICAgZmlsZXNbIm1haW4ucHkiXSA9IG1haW5fcHkKZ3VpID0gb3MucGF0aC5qb2luKHJvb3QsICJOV0FfTUFJTiIsICJndWkiLCAibndhX2d1aS5weSIpCmlmIG9zLnBhdGguZXhpc3RzKGd1aSk6CiAgICBmaWxlc1sibndhX2d1aS5weSJdID0gZ3VpCnNyYyA9IG9zLnBhdGguam9pbihyb290LCAiTldBX1NSQyIpCmZvciBkaXJwYXRoLCBkbnMsIGZucyBpbiBvcy53YWxrKHNyYyk6CiAgICBkbnNbOl0gPSBbZCBmb3IgZCBpbiBkbnMgaWYgZCAhPSAiX19weWNhY2hlX18iXQogICAgZm9yIGZuIGluIGZuczoKICAgICAgICBwID0gb3MucGF0aC5qb2luKGRpcnBhdGgsIGZuKQogICAgICAgIGZpbGVzWyJOV0FfU1JDLyIgKyBvcy5wYXRoLnJlbHBhdGgocCwgc3JjKV0gPSBwCgp3aXRoIG9wZW4ob3V0LCAidyIpIGFzIGY6CiAgICBmLndyaXRlKCIvKiDnlLEgZ2VuZXJhdGVfYjY0LnB5IOeUn+aIkO+8jOWGheW1jCAlZCDkuKrmlofku7YgKi9cbiIgJSBsZW4oZmlsZXMpKQogICAgZi53cml0ZSgic3RhdGljIGNvbnN0IGNoYXIgTldBX0I2NFtdID1cbiIpCiAgICBmb3IgcmVsLCBwIGluIHNvcnRlZChmaWxlcy5pdGVtcygpKToKICAgICAgICBmLndyaXRlKCciJXNcXHQlc1xcbiJcbicgJSAocmVsLCBiYXNlNjQuYjY0ZW5jb2RlKG9wZW4ocCwgInJiIikucmVhZCgpKS5kZWNvZGUoKSkpCiAgICBmLndyaXRlKCI7XG4iKQpwcmludCgi5bey55Sf5oiQICVz77yIJWQg5Liq5paH5Lu2LCAlZCDlrZfoioLvvIkiICUgKG91dCwgbGVuKGZpbGVzKSwgb3MucGF0aC5nZXRzaXplKG91dCkpKQo=
+# -*- coding: utf-8 -*-
+"""生成 nwa_b64.h：把 NWA_SRC/*.py + main.py + nwa_gui.py 内嵌为 C 字符串，
+供 build/nwa_app.c 编译单文件二进制（ELF 或 MinGW 交叉编译 exe）。
+
+用法:
+  python3 generate_b64.py <源码目录> [输出头文件]
+  源码目录 = 含 main.py 与 NWA_SRC/ 的那一层（如 rounds/round-07-fua）
+
+然后:
+  gcc -O2 -I. -DENTRY='"main.py"' -o nwa-linux nwa_app.c          # ELF
+  x86_64-w64-mingw32-gcc -O2 -I. -DENTRY='"main.py"' -o nwa-win.exe nwa_app.c  # exe
+"""
+import base64
+import os
+import sys
+
+root = sys.argv[1] if len(sys.argv) > 1 else "."
+out = sys.argv[2] if len(sys.argv) > 2 else os.path.join(root, "nwa_b64.h")
+
+files = {}
+main_py = os.path.join(root, "main.py")
+if os.path.exists(main_py):
+    files["main.py"] = main_py
+gui = os.path.join(root, "NWA_MAIN", "gui", "nwa_gui.py")
+if os.path.exists(gui):
+    files["nwa_gui.py"] = gui
+src = os.path.join(root, "NWA_SRC")
+for dirpath, dns, fns in os.walk(src):
+    dns[:] = [d for d in dns if d != "__pycache__"]
+    for fn in fns:
+        p = os.path.join(dirpath, fn)
+        files["NWA_SRC/" + os.path.relpath(p, src)] = p
+
+with open(out, "w") as f:
+    f.write("/* 由 generate_b64.py 生成，内嵌 %d 个文件 */\n" % len(files))
+    f.write("static const char NWA_B64[] =\n")
+    for rel, p in sorted(files.items()):
+        f.write('"%s\\t%s\\n"\n' % (rel, base64.b64encode(open(p, "rb").read()).decode()))
+    f.write(";\n")
+print("已生成 %s（%d 个文件, %d 字节）" % (out, len(files), os.path.getsize(out)))
