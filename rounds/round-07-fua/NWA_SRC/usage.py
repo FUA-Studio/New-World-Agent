@@ -1,1 +1,42 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIi55So6YeP6K6w5b2V77ya5Lya6K+d5LqL5Lu25LiOIHRva2VuIOa2iOiAl++8iOe6r+agh+WHhuW6k++8jOiQveWcsCBKU09OTO+8ieOAgiIiIgppbXBvcnQganNvbgppbXBvcnQgb3MKaW1wb3J0IHRpbWUKCkhPTUVfRElSID0gb3MucGF0aC5qb2luKG9zLnBhdGguZXhwYW5kdXNlcigifiIpLCAiLm53YSIpCkVWRU5UUyA9IG9zLnBhdGguam9pbihIT01FX0RJUiwgInVzYWdlLmpzb25sIikKCgpkZWYgX2Vuc3VyZSgpOgogICAgb3MubWFrZWRpcnMoSE9NRV9ESVIsIGV4aXN0X29rPVRydWUpCgoKZGVmIGxvZ19ldmVudChraW5kLCBleHRyYT1Ob25lKToKICAgICIiIuiusOW9leS4gOadoeS6i+S7tuOAgmV4dHJhIOmHjOWPr+W4piBpbnB1dF90b2tlbnMvb3V0cHV0X3Rva2Vuc+OAgiIiIgogICAgX2Vuc3VyZSgpCiAgICByZWMgPSB7InRzIjogaW50KHRpbWUudGltZSgpKSwgImtpbmQiOiBraW5kfQogICAgcmVjLnVwZGF0ZShleHRyYSBvciB7fSkKICAgIHdpdGggb3BlbihFVkVOVFMsICJhIiwgZW5jb2Rpbmc9InV0Zi04IikgYXMgZjoKICAgICAgICBmLndyaXRlKGpzb24uZHVtcHMocmVjLCBlbnN1cmVfYXNjaWk9RmFsc2UpICsgIlxuIikKICAgIHJldHVybiByZWMKCgpkZWYgc3VtbWFyeSgpOgogICAgIiIi6L+RIDcg5aSp55So6YeP5rGH5oC744CCIiIiCiAgICBpZiBub3Qgb3MucGF0aC5leGlzdHMoRVZFTlRTKToKICAgICAgICByZXR1cm4geyJldmVudHMiOiAwLCAiaW5wdXRfdG9rZW5zIjogMCwgIm91dHB1dF90b2tlbnMiOiAwfQogICAgbm93ID0gdGltZS50aW1lKCkKICAgIGV2LCB0aW4sIHRvdXQgPSAwLCAwLCAwCiAgICB3aXRoIG9wZW4oRVZFTlRTLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgIGZvciBsaW5lIGluIGY6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHJlYyA9IGpzb24ubG9hZHMobGluZSkKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIGlmIG5vdyAtIHJlYy5nZXQoInRzIiwgMCkgPiA3ICogODY0MDA6CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBldiArPSAxCiAgICAgICAgICAgIHRpbiArPSBpbnQocmVjLmdldCgiaW5wdXRfdG9rZW5zIiwgMCkpCiAgICAgICAgICAgIHRvdXQgKz0gaW50KHJlYy5nZXQoIm91dHB1dF90b2tlbnMiLCAwKSkKICAgIHJldHVybiB7ImV2ZW50cyI6IGV2LCAiaW5wdXRfdG9rZW5zIjogdGluLCAib3V0cHV0X3Rva2VucyI6IHRvdXR9Cg==
+# -*- coding: utf-8 -*-
+"""用量记录：会话事件与 token 消耗（纯标准库，落地 JSONL）。"""
+import json
+import os
+import time
+
+HOME_DIR = os.path.join(os.path.expanduser("~"), ".nwa")
+EVENTS = os.path.join(HOME_DIR, "usage.jsonl")
+
+
+def _ensure():
+    os.makedirs(HOME_DIR, exist_ok=True)
+
+
+def log_event(kind, extra=None):
+    """记录一条事件。extra 里可带 input_tokens/output_tokens。"""
+    _ensure()
+    rec = {"ts": int(time.time()), "kind": kind}
+    rec.update(extra or {})
+    with open(EVENTS, "a", encoding="utf-8") as f:
+        f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    return rec
+
+
+def summary():
+    """近 7 天用量汇总。"""
+    if not os.path.exists(EVENTS):
+        return {"events": 0, "input_tokens": 0, "output_tokens": 0}
+    now = time.time()
+    ev, tin, tout = 0, 0, 0
+    with open(EVENTS, encoding="utf-8") as f:
+        for line in f:
+            try:
+                rec = json.loads(line)
+            except Exception:
+                continue
+            if now - rec.get("ts", 0) > 7 * 86400:
+                continue
+            ev += 1
+            tin += int(rec.get("input_tokens", 0))
+            tout += int(rec.get("output_tokens", 0))
+    return {"events": ev, "input_tokens": tin, "output_tokens": tout}
