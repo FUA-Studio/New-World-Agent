@@ -1,0 +1,132 @@
+name: NWA Submission Guard
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  guard:
+    name: guard (encoding / add-only / syntax / smoke)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Content encoding guard
+        run: |
+          python - "${{ github.event_name }}" "${{ github.base_ref }}" <<'PY'
+          import base64, os, subprocess, sys
+
+          event = sys.argv[1]
+          base = sys.argv[2]
+          problems = []
+
+          def head(p, n=8192):
+              try:
+                  with open(p, "rb") as fh:
+                      return fh.read(n).decode("utf-8", "replace").strip()
+              except OSError:
+                  return ""
+
+          def is_b64_blob(t):
+              if not t or "\n" in t:
+                  return False
+              if len(t) < 64 or len(t) % 4:
+                  return False
+              try:
+                  base64.b64decode(t, validate=True)
+              except Exception:
+                  return False
+              return True
+
+          def check(p):
+              t = head(p)
+              if not t:
+                  problems.append(f"{p}: empty file")
+              elif t == "base64":
+                  problems.append(f"{p}: placeholder string 'base64' instead of content")
+              elif is_b64_blob(t):
+                  problems.append(f"{p}: content is a base64 blob, commit plain text")
+
+          for p in ("README.md", "CONTRIBUTING.md"):
+              if os.path.exists(p):
+                  check(p)
+
+          for root, _dirs, names in os.walk("rounds"):
+              for n in names:
+                  p = os.path.join(root, n)
+                  if not n.endswith((".md", ".py", ".sh", ".c", ".txt", ".json", ".yml", ".yaml")):
+                      continue
+                  if os.path.getsize(p) <= 8192:
+                      check(p)
+
+          if event == "pull_request" and base:
+              diff = subprocess.run(["git", "diff", "--name-only", f"origin/{base}...HEAD"],
+                                    capture_output=True, text=True).stdout.split()
+              for p in diff:
+                  if p.startswith("rounds/") and os.path.exists(p):
+                      problems.append(f"{p}: a round directory is add-only; "
+                                      "do not modify files of an existing round")
+
+          if problems:
+              print("::error::content guard failed")
+              for m in problems:
+                  print(" -", m)
+              sys.exit(1)
+          print("content guard passed")
+          PY
+
+      - name: Python syntax check
+        run: |
+          python - <<'PY'
+          import glob, py_compile, sys
+          files = glob.glob("rounds/**/NWA_SRC/*.py", recursive=True)
+          files += glob.glob("rounds/**/main.py", recursive=True)
+          bad = []
+          for p in sorted(set(files)):
+              try:
+                  py_compile.compile(p, doraise=True)
+              except Exception as e:
+                  bad.append(f"{p}: {e.__class__.__name__}: {e}")
+          for b in bad:
+              print("::warning::syntax", b)
+          print(f"checked {len(files)} files, {len(bad)} failed")
+          PY
+
+      - name: Smoke test rounds
+        run: |
+          python - <<'PY'
+          import glob, os, subprocess, sys
+          rounds = sorted({os.path.dirname(p) for p in
+                           glob.glob("rounds/*/main.py")})
+          if not rounds:
+              print("no round entry points found")
+              sys.exit(0)
+          failed = []
+          for r in rounds:
+              entry = os.path.join(r, "main.py")
+              try:
+                  r1 = subprocess.run([sys.executable, entry, "--help"],
+                                      capture_output=True, text=True, timeout=120)
+                  r2 = subprocess.run([sys.executable, entry, "selftest"],
+                                      capture_output=True, text=True, timeout=300)
+              except subprocess.TimeoutExpired:
+                  failed.append(f"{r}: timed out")
+                  continue
+              print(f"== {r}: --help exit {r1.returncode}, selftest exit {r2.returncode}")
+              if r1.returncode != 0 or r2.returncode != 0:
+                  failed.append(f"{r}: help={r1.returncode} selftest={r2.returncode}")
+          for f in failed:
+              print("::warning::smoke", f)
+          sys.exit(1 if failed else 0)
+          PY
