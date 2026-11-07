@@ -1,1 +1,145 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIiTldBIChOZXcgV29ybGQgQWdlbnQpIENMSSDkuLvlhaXlj6PjgIIKCuWKn+iDveS4jiBGQ0Qg55u45Ly877ya5Lqk5LqS5byP5Lya6K+d44CB5bel5YW36LCD55So44CB6aaW5qyh5ZCv5Yqo5byV5a+844CB6Ieq5oiR5Y2H57qn44CBCuWbnua7muOAgeiHquajgOmqjOivgeOAgumHjeaWsOWTgeeJjOWMluS4uiBOV0HvvIjmt7Hnu78gKyDpk7bngbDkuLvpopjvvInjgIIKCueUqOazlToKICBweXRob24zIG1haW4ucHkgICAgICAgICAgICAgICAgICAgIOS6pOS6kuW8j+S8muivne+8iOmmluasoeWQr+WKqOWFiOW8leWvvOW9leWFpSBnaXRodWIgdG9rZW7vvIkKICBweXRob24zIG1haW4ucHkgLS1oZWxwICAgICAgICAgICAgIOaYvuekuuW4ruWKqQogIHB5dGhvbjMgbWFpbi5weSBmaXJzdC1ib290ICAgICAgICAg6aaW5qyh5ZCv5Yqo5byV5a+877yI5b2V5YWl5bm25Yqg5a+G5L+d5a2YIGdpdGh1YiB0b2tlbu+8iQogIHB5dGhvbjMgbWFpbi5weSBzZWxmLXVwZ3JhZGUgLS1kcnktcnVuICAg55Sf5oiQIFBSIHBheWxvYWTvvIjkuI3ogZTnvZHvvIkKICBweXRob24zIG1haW4ucHkgc2VsZi11cGdyYWRlIC0tcm91bmQgMyAgIOaJp+ihjOS4gOi9ruiHquaIkeWNh+e6p++8iOS6p+WHuiBQUu+8jOS6uuW3peWuoeaJue+8iQogIHB5dGhvbjMgbWFpbi5weSByb2xsYmFjayAgICAgICAgICDlm57mu5rliLDmnIDov5HkuIDmrKHnqLPlrprniYjmnKwKICBweXRob24zIG1haW4ucHkgc25hcHNob3QgICAgICAgICAg5omL5Yqo5omT56iz5a6a54mI5pys5b+r54WnCiAgcHl0aG9uMyBtYWluLnB5IHNlbGZ0ZXN0ICAgICAgICAgIOiHquajgO+8iGltcG9ydC9iYW5uZXIv5Y2H57qnZHJ5LXJ1bi/lm57mu5rmvJTnu4PvvIkKICBweXRob24zIG1haW4ucHkgYmFubmVyICAgICAgICAgICAg5pi+56S65Li76aKY5qiq5bmFCgrnuq/moIflh4blupPlrp7njrDvvIjliqDlr4bnlKggaGFzaGxpYitQQktERjLvvInvvIzlj6/np7vmpI3liLAgTldBX01BSU4g5ZCE5bmz5Y+w5oiQ5ZOB44CCCiIiIgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCBzeXMKCmlmIHN5cy5zdGRvdXQgaXMgbm90IE5vbmUgYW5kIGhhc2F0dHIoc3lzLnN0ZG91dCwgImlzYXR0eSIpOgogICAgcGFzcwoKZnJvbSBiYW5uZXIgaW1wb3J0IEJBTk5FUiwgR1JFRU4sIEdSRUVOX0RBUkssIFNJTFZFUiwgUkVTRVQsIGN5YW4sIHllbGxvdywgcmVkLCBncmF5LCBncmVlbiwgYm9sZApmcm9tIHRoZW1lIGltcG9ydCBERUVQX0dSRUVOLCBTSUxWRVJfR1JBWSwgUEFMRVRURQpmcm9tIHVzYWdlIGltcG9ydCBsb2dfZXZlbnQsIHN1bW1hcnkKZnJvbSBsbG0gaW1wb3J0IGNhbGxfbGxtLCBpc19tb2NrLCBNT0NLCmZyb20gdG9rZW5fc3RvcmUgaW1wb3J0IGxvYWRfY29uZmlnLCBzYXZlX2NvbmZpZywgZmlyc3RfYm9vdF9zZXR1cCwgdG9rZW5fb2sKZnJvbSBzZWN1cml0eSBpbXBvcnQgdmFsaWRhdGVfc2NvcGUsIGh1bWFuX3Jldmlld19nYXRlLCBzbmFwc2hvdCwgcm9sbGJhY2ssIFNUQUJMRV9ESVIKZnJvbSB1cGdyYWRlIGltcG9ydCBDWUNMRV9EQVlTLCBJTlRFTlNJVFlfVElFUlMsIHJ1bl9zZWxmX3VwZ3JhZGUKCgpkZWYgX2Vuc3VyZV9jb25maWcoKToKICAgIGNmZyA9IGxvYWRfY29uZmlnKCkKICAgIGlmIG5vdCB0b2tlbl9vayhjZmcpOgogICAgICAgIHByaW50KCLmo4DmtYvliLDlsJrmnKrlrozmiJDpppbmrKHlkK/liqjvvJror7flhYjmiafooYwgIHB5dGhvbjMgbWFpbi5weSBmaXJzdC1ib290IikKICAgICAgICBwcmludCgi5Lul5b2V5YWlIGdpdGh1YiB0b2tlbu+8iOWwhuaMieacgOWwj+adg+mZkCBzY29wZSDmoKHpqozlubbliqDlr4blrZjlgqjvvIznu53kuI3lhpnmmI7mlofvvInjgIIiKQogICAgICAgIHN5cy5leGl0KDIpCiAgICByZXR1cm4gY2ZnCgoKZGVmIGNtZF9iYW5uZXIoX2FyZ3MpOgogICAgcHJpbnQoQkFOTkVSKQogICAgcHJpbnQoIuS4u+mimDog5rex57u/ICMxNDUzMmQvJXMgKyDpk7bngbAgI2MwYzBjMC8lcyIgJSAoREVFUF9HUkVFTiwgU0lMVkVSX0dSQVkpKQoKCmRlZiBjbWRfZmlyc3RfYm9vdChhcmdzKToKICAgIGNmZyA9IGZpcnN0X2Jvb3Rfc2V0dXAobW9jaz0gZ2V0YXR0cihhcmdzLCAibW9jayIsIEZhbHNlKSwgcXVpZXQ9VHJ1ZSkKICAgIHByaW50KCLpppbmrKHlkK/liqjlrozmiJDvvJpnaXRodWIgdG9rZW4g5bey6YCa6L+H5pyA5bCP5p2D6ZmQIHNjb3BlIOagoemqjOW5tuS7pSBLREYg5rS+55Sf5a+G6ZKl5Yqg5a+G6JC955uY44CCIikKICAgIHByaW50KCLljYfnuqflkajmnJ89JXMg5aSp77yM5by65bqmPSVzIiAlIChjZmdbImN5Y2xlIl0sIGNmZ1siaW50ZW5zaXR5Il0pKQoKCmRlZiBjbWRfY2hhdChhcmdzKToKICAgIF9lbnN1cmVfY29uZmlnKCkKICAgIHByaW50KEJBTk5FUikKICAgIHByaW50KCJOV0Eg5Lqk5LqS5byP5Lya6K+d77yIJXPvvInigJTigJQg6L6T5YWlIDpxdWl0IOmAgOWHuiIgJSAoIm1vY2sg5qih5byPIiBpZiBpc19tb2NrKCkgZWxzZSAiTExNIOaooeW8jyIpKQogICAgaGlzdG9yeSA9IFtdCiAgICB3aGlsZSBUcnVlOgogICAgICAgIHRyeToKICAgICAgICAgICAgbGluZSA9IGlucHV0KGdyYXkoIm53YT4gIikpCiAgICAgICAgZXhjZXB0IChFT0ZFcnJvciwgS2V5Ym9hcmRJbnRlcnJ1cHQpOgogICAgICAgICAgICBicmVhawogICAgICAgIGlmIG5vdCBsaW5lLnN0cmlwKCk6CiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgaWYgbGluZS5zdHJpcCgpIGluICgiOnF1aXQiLCAiOnEiLCAiZXhpdCIsICJxdWl0Iik6CiAgICAgICAgICAgIGJyZWFrCiAgICAgICAgaWYgbGluZS5zdHJpcCgpID09ICI6dXNhZ2UiOgogICAgICAgICAgICBwcmludChqc29uLmR1bXBzKHN1bW1hcnkoKSwgZW5zdXJlX2FzY2lpPUZhbHNlLCBpbmRlbnQ9MikpCiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgaWYgbGluZS5zdHJpcCgpID09ICI6YmFubmVyIjoKICAgICAgICAgICAgcHJpbnQoQkFOTkVSKQogICAgICAgICAgICBjb250aW51ZQogICAgICAgIGFucyA9IGNhbGxfbGxtKGxpbmUsIGhpc3RvcnkpCiAgICAgICAgaGlzdG9yeS5hcHBlbmQobGluZSkKICAgICAgICBwcmludChHUkVFTiArIGFucyArIFJFU0VUKQogICAgICAgIGxvZ19ldmVudCgiY2hhdCIsIHsicHJvbXB0IjogbGluZVs6ODBdLCAibW9jayI6IGlzX21vY2soKX0pCgoKZGVmIGNtZF9zZWxmX3VwZ3JhZGUoYXJncyk6CiAgICBfZW5zdXJlX2NvbmZpZygpCiAgICBydW5fc2VsZl91cGdyYWRlKGRyeV9ydW49Z2V0YXR0cihhcmdzLCAiZHJ5X3J1biIsIEZhbHNlKSwKICAgICAgICAgICAgICAgICAgICAgcm91bmRfbm89Z2V0YXR0cihhcmdzLCAicm91bmQiLCBOb25lKSkKCgpkZWYgY21kX3JvbGxiYWNrKF9hcmdzKToKICAgIG9rID0gcm9sbGJhY2soKQogICAgaWYgbm90IG9rOgogICAgICAgIHByaW50KCLlm57mu5rlpLHotKXvvJrmsqHmnInlj6/nlKjlv6vnhafvvIzor7flhYggc25hcHNob3TjgIIiKQogICAgICAgIHN5cy5leGl0KDEpCgoKZGVmIGNtZF9zbmFwc2hvdChfYXJncyk6CiAgICBpZF8gPSBzbmFwc2hvdCgibWFudWFsIikKICAgIHByaW50KCLlv6vnhacgJXMg5bey5L+d5a2Y6IezICVzIiAlIChpZF8sIFNUQUJMRV9ESVIpKQoKCmRlZiBjbWRfc2VsZnRlc3QoYXJncyk6CiAgICBmcm9tIHNlbGZ0ZXN0IGltcG9ydCBydW5fYWxsCiAgICByZXN1bHRzID0gcnVuX2FsbCgpCiAgICBmb3IgbmFtZSwgb2sgaW4gcmVzdWx0cy5pdGVtcygpOgogICAgICAgIHByaW50KChHUkVFTiArICJbUEFTU10gIiBpZiBvayBlbHNlIFJFRCArICJbRkFJTF0gIikgKyBuYW1lKQogICAgc3lzLmV4aXQoMCBpZiBhbGwocmVzdWx0cy52YWx1ZXMoKSkgZWxzZSAxKQoKCmRlZiBtYWluKGFyZ3Y9Tm9uZSk6CiAgICBwYXJzZXIgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcigKICAgICAgICBwcm9nPSJud2EiLAogICAgICAgIGRlc2NyaXB0aW9uPSJOV0EgKE5ldyBXb3JsZCBBZ2VudCkg4oCU4oCUIOWfuuS6jiBGQ0Qg5rqQ56CB6YeN5p6E55qEIENMSSBBSSDku6PnkIbvvIwiCiAgICAgICAgICAgICAgICAgICAgIuaUr+aMgeiHquaIkeWNh+e6py/lm57mu5ov5Yqg5a+GIHRva2VuIOWtmOWCqC/kurrnsbvlrqHmibnpl6jnpoHjgIIiKQogICAgc3ViID0gcGFyc2VyLmFkZF9zdWJwYXJzZXJzKGRlc3Q9ImNtZCIpCiAgICBzdWIuYWRkX3BhcnNlcigiYmFubmVyIiwgaGVscD0i5pi+56S65Li76aKY5qiq5bmFIikKICAgIHBfZmIgPSBzdWIuYWRkX3BhcnNlcigiZmlyc3QtYm9vdCIsIGhlbHA9IummluasoeWQr+WKqOW8leWvvO+8muW9leWFpSBnaXRodWIgdG9rZW7vvIhvbmJvYXJkaW5n77yJIikKICAgIHBfZmIuYWRkX2FyZ3VtZW50KCItLW1vY2siLCBhY3Rpb249InN0b3JlX3RydWUiLCBoZWxwPSJtb2NrIOaooeW8j++8muS4jeiBlOe9keagoemqjCBzY29wZSIpCiAgICBwX3N1ID0gc3ViLmFkZF9wYXJzZXIoInNlbGYtdXBncmFkZSIsIGhlbHA9IuiHquaIkeWNh+e6p++8iOS6p+WHuiBQUu+8jOS6uuW3peWuoeaJueWQjuaJjeeUn+aViO+8iSIpCiAgICBwX3N1LmFkZF9hcmd1bWVudCgiLS1kcnktcnVuIiwgIi0tZHJ5LXJ1bi1tb2RlIiwgZGVzdD0iZHJ5X3J1biIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIsCiAgICAgICAgICAgICAgICAgICAgICBoZWxwPSJkcnlydW7vvJrku4XnlJ/miJAgUFIgcGF5bG9hZO+8jOS4jeiBlOe9kSIpCiAgICBwX3N1LmFkZF9hcmd1bWVudCgiLS1yb3VuZCIsIHR5cGU9aW50LCBkZWZhdWx0PU5vbmUsIGhlbHA9IuaMh+Wumui9ruasoSIpCiAgICBzdWIuYWRkX3BhcnNlcigicm9sbGJhY2siLCBoZWxwPSLlm57mu5rliLDmnIDov5HnqLPlrprniYjmnKwiKQogICAgc3ViLmFkZF9wYXJzZXIoInNuYXBzaG90IiwgaGVscD0i5omL5Yqo5omT56iz5a6a54mI5pys5b+r54WnIikKICAgIHN1Yi5hZGRfcGFyc2VyKCJzZWxmdGVzdCIsIGhlbHA9IuiHquajgO+8mmltcG9ydC9iYW5uZXIv5Y2H57qnZHJ5LXJ1bi/lm57mu5rmvJTnu4MiKQogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKGFyZ3YpCiAgICBpZiBub3QgYXJncy5jbWQ6CiAgICAgICAgY21kX2NoYXQoYXJncykKICAgICAgICByZXR1cm4KICAgIGlmIGFyZ3MuY21kID09ICJiYW5uZXIiOgogICAgICAgIGNtZF9iYW5uZXIoYXJncykKICAgIGVsaWYgYXJncy5jbWQgPT0gImZpcnN0LWJvb3QiOgogICAgICAgIGNtZF9maXJzdF9ib290KGFyZ3MpCiAgICBlbGlmIGFyZ3MuY21kID09ICJzZWxmLXVwZ3JhZGUiOgogICAgICAgIGNtZF9zZWxmX3VwZ3JhZGUoYXJncykKICAgIGVsaWYgYXJncy5jbWQgPT0gInJvbGxiYWNrIjoKICAgICAgICBjbWRfcm9sbGJhY2soYXJncykKICAgIGVsaWYgYXJncy5jbWQgPT0gInNuYXBzaG90IjoKICAgICAgICBjbWRfc25hcHNob3QoYXJncykKICAgIGVsaWYgYXJncy5jbWQgPT0gInNlbGZ0ZXN0IjoKICAgICAgICBjbWRfc2VsZnRlc3QoYXJncykKICAgICAgICByZXR1cm4KCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+# -*- coding: utf-8 -*-
+"""NWA (New World Agent) CLI 主入口。
+
+功能与 FCD 相似：交互式会话、工具调用、首次启动引导、自我升级、
+回滚、自检验证。重新品牌化为 NWA（深绿 + 银灰主题）。
+
+用法:
+  python3 main.py                    交互式会话（首次启动先引导录入 github token）
+  python3 main.py --help             显示帮助
+  python3 main.py first-boot         首次启动引导（录入并加密保存 github token）
+  python3 main.py self-upgrade --dry-run   生成 PR payload（不联网）
+  python3 main.py self-upgrade --round 3   执行一轮自我升级（产出 PR，人工审批）
+  python3 main.py rollback          回滚到最近一次稳定版本
+  python3 main.py snapshot          手动打稳定版本快照
+  python3 main.py selftest          自检（import/banner/升级dry-run/回滚演练）
+  python3 main.py banner            显示主题横幅
+
+纯标准库实现（加密用 hashlib+PBKDF2），可移植到 NWA_MAIN 各平台成品。
+"""
+import argparse
+import json
+import os
+import sys
+
+if sys.stdout is not None and hasattr(sys.stdout, "isatty"):
+    pass
+
+from banner import BANNER, GREEN, GREEN_DARK, SILVER, RESET, cyan, yellow, red, gray, green, bold
+from theme import DEEP_GREEN, SILVER_GRAY, PALETTE
+from usage import log_event, summary
+from llm import call_llm, is_mock, MOCK
+from token_store import load_config, save_config, first_boot_setup, token_ok
+from security import validate_scope, human_review_gate, snapshot, rollback, STABLE_DIR
+from upgrade import CYCLE_DAYS, INTENSITY_TIERS, run_self_upgrade
+
+
+def _ensure_config():
+    cfg = load_config()
+    if not token_ok(cfg):
+        print("检测到尚未完成首次启动：请先执行  python3 main.py first-boot")
+        print("以录入 github token（将按最小权限 scope 校验并加密存储，绝不写明文）。")
+        sys.exit(2)
+    return cfg
+
+
+def cmd_banner(_args):
+    print(BANNER)
+    print("主题: 深绿 #14532d/%s + 银灰 #c0c0c0/%s" % (DEEP_GREEN, SILVER_GRAY))
+
+
+def cmd_first_boot(args):
+    cfg = first_boot_setup(mock= getattr(args, "mock", False), quiet=True)
+    print("首次启动完成：github token 已通过最小权限 scope 校验并以 KDF 派生密钥加密落盘。")
+    print("升级周期=%s 天，强度=%s" % (cfg["cycle"], cfg["intensity"]))
+
+
+def cmd_chat(args):
+    _ensure_config()
+    print(BANNER)
+    print("NWA 交互式会话（%s）—— 输入 :quit 退出" % ("mock 模式" if is_mock() else "LLM 模式"))
+    history = []
+    while True:
+        try:
+            line = input(gray("nwa> "))
+        except (EOFError, KeyboardInterrupt):
+            break
+        if not line.strip():
+            continue
+        if line.strip() in (":quit", ":q", "exit", "quit"):
+            break
+        if line.strip() == ":usage":
+            print(json.dumps(summary(), ensure_ascii=False, indent=2))
+            continue
+        if line.strip() == ":banner":
+            print(BANNER)
+            continue
+        ans = call_llm(line, history)
+        history.append(line)
+        print(GREEN + ans + RESET)
+        log_event("chat", {"prompt": line[:80], "mock": is_mock()})
+
+
+def cmd_self_upgrade(args):
+    _ensure_config()
+    run_self_upgrade(dry_run=getattr(args, "dry_run", False),
+                     round_no=getattr(args, "round", None))
+
+
+def cmd_rollback(_args):
+    ok = rollback()
+    if not ok:
+        print("回滚失败：没有可用快照，请先 snapshot。")
+        sys.exit(1)
+
+
+def cmd_snapshot(_args):
+    id_ = snapshot("manual")
+    print("快照 %s 已保存至 %s" % (id_, STABLE_DIR))
+
+
+def cmd_selftest(args):
+    from selftest import run_all
+    results = run_all()
+    for name, ok in results.items():
+        print((GREEN + "[PASS] " if ok else RED + "[FAIL] ") + name)
+    sys.exit(0 if all(results.values()) else 1)
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(
+        prog="nwa",
+        description="NWA (New World Agent) —— 基于 FCD 源码重构的 CLI AI 代理，"
+                    "支持自我升级/回滚/加密 token 存储/人类审批门禁。")
+    sub = parser.add_subparsers(dest="cmd")
+    sub.add_parser("banner", help="显示主题横幅")
+    p_fb = sub.add_parser("first-boot", help="首次启动引导：录入 github token（onboarding）")
+    p_fb.add_argument("--mock", action="store_true", help="mock 模式：不联网校验 scope")
+    p_su = sub.add_parser("self-upgrade", help="自我升级（产出 PR，人工审批后才生效）")
+    p_su.add_argument("--dry-run", "--dry-run-mode", dest="dry_run", action="store_true",
+                      help="dryrun：仅生成 PR payload，不联网")
+    p_su.add_argument("--round", type=int, default=None, help="指定轮次")
+    sub.add_parser("rollback", help="回滚到最近稳定版本")
+    sub.add_parser("snapshot", help="手动打稳定版本快照")
+    sub.add_parser("selftest", help="自检：import/banner/升级dry-run/回滚演练")
+    args = parser.parse_args(argv)
+    if not args.cmd:
+        cmd_chat(args)
+        return
+    if args.cmd == "banner":
+        cmd_banner(args)
+    elif args.cmd == "first-boot":
+        cmd_first_boot(args)
+    elif args.cmd == "self-upgrade":
+        cmd_self_upgrade(args)
+    elif args.cmd == "rollback":
+        cmd_rollback(args)
+    elif args.cmd == "snapshot":
+        cmd_snapshot(args)
+    elif args.cmd == "selftest":
+        cmd_selftest(args)
+        return
+
+
+if __name__ == "__main__":
+    main()
