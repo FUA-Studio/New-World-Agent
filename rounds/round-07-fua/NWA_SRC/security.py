@@ -1,1 +1,103 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIi5a6J5YWo5p625p6E77yI5by65Yi26aG577yM6Z2e5Y+v6YCJ77yJ77yaCgphKSDmnIDlsI/mnYPpmZAgKGxlYXN0IHByaXZpbGVnZSAvIG1pbmltYWwgcGVybWlzc2lvbinvvJpnaXRodWIgdG9rZW4g55qECiAgIHNjb3BlIOagoemqjO+8jOWPquWFgeiuuCByZXBvIOexu+ivu+WGme+8iOW8gCBQUiDmiYDpnIDvvInvvIznpoHmraIgYWRtaW4vb3duZXIvZGVsZXRl44CCCmIpIOWKoOWvhuWtmOWCqO+8muingSB0b2tlbl9zdG9yZe+8iEtERiArIOWvueensOWwgeijhe+8jHRva2VuIOe7neS4jeWGmeaYjuaWh++8ieOAggpjKSDlvLrliLbkurrnsbvlrqHmibkgKG1hbmRhdG9yeSBodW1hbiByZXZpZXcp77ya6Ieq5oiR5Y2H57qn5Y+q5Lqn5Ye6IFBS77yMCiAgIOawuOS4jeiHquWKqOWQiOW5tiAobmV2ZXIgYXV0by1tZXJnZWQgLyBhdXRvLWFwcGxpZWQp77ybUFIg5b+F6aG757uPCiAgIG1hbnVhbCBhcHByb3ZhbCAo5Lq65bel5a6h5om56ZeoKSDlkI7miY3nlJ/mlYjjgIIKZCkg5q+P6L2u5Zue5ruaIChwZXItcm91bmQgcm9sbGJhY2sp77ya5q+P6L2u6Ieq5oiR5Y2H57qn5YmN5b+r54Wn5LiK5LiA56iz5a6a54mI5pys77ybCiAgIOWGkueDn+a1i+ivleWksei0pS/ltKnmuoPml7boh6rliqjlm57mu5ogKHJvbGxiYWNrIC8gc25hcHNob3QgLyByZXN0b3JlKeOAggoiIiIKaW1wb3J0IG9zCmltcG9ydCByZQppbXBvcnQgc2h1dGlsCmltcG9ydCB0aW1lCgpIT01FX0RJUiA9IG9zLnBhdGguam9pbihvcy5wYXRoLmV4cGFuZHVzZXIoIn4iKSwgIi5ud2EiKQpTVEFCTEVfRElSID0gb3MucGF0aC5qb2luKEhPTUVfRElSLCAic3RhYmxlIikKU1JDX0RJUiA9IG9zLnBhdGguZGlybmFtZShvcy5wYXRoLmFic3BhdGgoX19maWxlX18pKQoKIyDlhYHorrjnmoQgc2NvcGUg55m95ZCN5Y2V77yI5pyA5bCP5p2D6ZmQ77ya5LuF6KaG55uW5byAIFBSIOaJgOmcgO+8iQpBTExPV0VEX1NDT1BFUyA9IHsicmVwbyIsICJjb250ZW50cyIsICJwdWxsX3JlcXVlc3QifQojIOWHuueOsOWNs+aLkue7neeahCBzY29wZe+8iOi2heWHuuacgOWwj+adg+mZkO+8iQpGT1JCSURERU5fTUFSS1MgPSAoImFkbWluOiIsICJvd25lciIsICJkZWxldGUiLCAic3VkbyIsICJhbGwiKQoKX1RPS0VOX1BSRUZJWCA9IHJlLmNvbXBpbGUociJeKGdocF98Z2hvX3xnaHVffGdoc198Z2l0aHViLSk/W0EtWmEtejAtOVwtX117MTYsfSIpCgoKZGVmIHZhbGlkYXRlX3Njb3BlKHRva2VuLCBzY29wZXM9Tm9uZSwgbW9jaz1GYWxzZSk6CiAgICAiIiLmoKHpqowgZ2l0aHViIHRva2VuIOeahCBzY29wZSDmmK/lkKbmu6HotrPmnIDlsI/mnYPpmZDopoHmsYLjgIIKCiAgICDnprvnur8v6aqM5pS2546v5aKD6LWw5pys5Zyw5b2i54q25qCh6aqM77yI5YmN57yAK+mVv+W6pu+8ie+8m21vY2s9VHJ1ZSDnm7TmjqXmlL7ooYzljaDkvY3nrKbjgIIKICAgIOi/lOWbniAob2ssIHJlYXNvbinjgIIKICAgICIiIgogICAgaWYgbW9jazoKICAgICAgICByZXR1cm4gVHJ1ZSwgIm1vY2sgc2NvcGUgY2hlY2sgKGRyeS1ydW4vb2ZmbGluZSkiCiAgICBpZiBub3QgX1RPS0VOX1BSRUZJWC5tYXRjaCh0b2tlbi5zdHJpcCgpKToKICAgICAgICByZXR1cm4gRmFsc2UsICJ0b2tlbiDlvaLnirbpnZ7ms5XvvIhnaXRodWIgUEFUIOWJjee8gC/plb/luqbkuI3nrKbvvIkiCiAgICBmb3IgcyBpbiAoc2NvcGVzIG9yIFtdKToKICAgICAgICBmb3IgbWFyayBpbiBGT1JCSURERU5fTUFSS1M6CiAgICAgICAgICAgIGlmIG1hcmsgaW4gcy5sb3dlcigpOgogICAgICAgICAgICAgICAgcmV0dXJuIEZhbHNlLCAic2NvcGUgJyVzJyDotoXlh7rmnIDlsI/mnYPpmZDvvIjlkKsgJXPvvInvvIzmi5Lnu50iICUgKHMsIG1hcmspCiAgICAgICAgaWYgcy5sb3dlcigpIG5vdCBpbiBBTExPV0VEX1NDT1BFUzoKICAgICAgICAgICAgcmV0dXJuIEZhbHNlLCAic2NvcGUgJyVzJyDkuI3lnKjnmb3lkI3ljZUgJXPvvIhsZWFzdCBwcml2aWxlZ2Ug5Y6f5YiZ77yJIiAlIChzLCBzb3J0ZWQoQUxMT1dFRF9TQ09QRVMpKQogICAgcmV0dXJuIFRydWUsICJzY29wZSDmoKHpqozpgJrov4fvvIjmnIDlsI/mnYPpmZDvvIkiCgoKZGVmIGh1bWFuX3Jldmlld19nYXRlKHByX3BheWxvYWQpOgogICAgIiIi5by65Yi25Lq657G75a6h5om56Zeo77yaUFIg5Yib5bu65ZCO5L+d5oyBIG9wZW7vvIznu53kuI0gYXV0by1tZXJnZeOAggoKICAgIOi/lOWbnuWuoeaJueeKtuaAgSBkaWN077yb6LCD55So5pa55b+F6aG7562J5Lq65belIGFwcHJvdmFsIOWQjuaJjeWFgeiuuOWQiOW5tuOAggogICAgIiIiCiAgICByZXR1cm4gewogICAgICAgICJzdGF0ZSI6ICJvcGVuIiwKICAgICAgICAicmV2aWV3X3JlcXVpcmVkIjogVHJ1ZSwKICAgICAgICAiaHVtYW5fcmV2aWV3IjogIm1hbmRhdG9yeSIsCiAgICAgICAgImF1dG9fbWVyZ2UiOiBGYWxzZSwKICAgICAgICAibm90ZSI6ICLoh6rmiJHljYfnuqcgUFIg5rC45LiN6Ieq5Yqo5ZCI5bm277yM6ZyAIGh1bWFuIHJldmlldyAvIG1hbnVhbCBhcHByb3ZhbCIsCiAgICAgICAgInRpdGxlIjogcHJfcGF5bG9hZC5nZXQoInRpdGxlIiwgIiIpLAogICAgfQoKCmRlZiBzbmFwc2hvdChyZWFzb249InVwZ3JhZGUtcm91bmQiKToKICAgICIiIuWNh+e6p+WJjeW/q+eFp++8muaKiuW9k+WJjSBOV0FfU1JDIOagkeWkjeWItuWIsOeos+WumuebruW9le+8iOavj+i9ruS4gOS7ve+8ieOAgiIiIgogICAgb3MubWFrZWRpcnMoU1RBQkxFX0RJUiwgZXhpc3Rfb2s9VHJ1ZSkKICAgIHN0YW1wID0gdGltZS5zdHJmdGltZSgiJVklbSVkLSVIJU0lUyIpCiAgICBkZXN0ID0gb3MucGF0aC5qb2luKFNUQUJMRV9ESVIsICJud2EtJXMtJXMiICUgKHJlYXNvbiwgc3RhbXApKQogICAgc2h1dGlsLmNvcHl0cmVlKFNSQ19ESVIsIGRlc3QsIGlnbm9yZT1zaHV0aWwuaWdub3JlX3BhdHRlcm5zKCJfX3B5Y2FjaGVfXyIpKQogICAgcmV0dXJuIGRlc3QKCgpkZWYgbGF0ZXN0X3NuYXBzaG90KCk6CiAgICBpZiBub3Qgb3MucGF0aC5pc2RpcihTVEFCTEVfRElSKToKICAgICAgICByZXR1cm4gTm9uZQogICAgZW50cmllcyA9IFtlIGZvciBlIGluIG9zLmxpc3RkaXIoU1RBQkxFX0RJUikgaWYgb3MucGF0aC5pc2Rpcihvcy5wYXRoLmpvaW4oU1RBQkxFX0RJUiwgZSkpXQogICAgcmV0dXJuIG9zLnBhdGguam9pbihTVEFCTEVfRElSLCBzb3J0ZWQoZW50cmllcylbLTFdKSBpZiBlbnRyaWVzIGVsc2UgTm9uZQoKCmRlZiByb2xsYmFjayhhdXRvPUZhbHNlKToKICAgICIiIuWbnua7mu+8mnJlc3RvcmUg5pyA6L+R5LiA5Lu956iz5a6a54mI5pys5b+r54Wn5Yiw5b2T5YmN5rqQ56CB55uu5b2V44CCCgogICAg5Lq65bel6Kem5Y+RIChud2Egcm9sbGJhY2spIOS4juWGkueDn+Wksei0peiHquWKqOinpuWPkSAoYXV0bz1UcnVlKSDlhbHnlKjmraTot6/lvoTjgIIKICAgICIiIgogICAgc3JjID0gbGF0ZXN0X3NuYXBzaG90KCkKICAgIGlmIG5vdCBzcmM6CiAgICAgICAgcmV0dXJuIEZhbHNlCiAgICBmb3IgbmFtZSBpbiBvcy5saXN0ZGlyKFNSQ19ESVIpOgogICAgICAgIGlmIG5hbWUgPT0gIl9fcHljYWNoZV9fIjoKICAgICAgICAgICAgY29udGludWUKICAgICAgICBwID0gb3MucGF0aC5qb2luKFNSQ19ESVIsIG5hbWUpCiAgICAgICAgaWYgb3MucGF0aC5pc2RpcihwKToKICAgICAgICAgICAgc2h1dGlsLnJtdHJlZShwKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIG9zLnJlbW92ZShwKQogICAgZm9yIG5hbWUgaW4gb3MubGlzdGRpcihzcmMpOgogICAgICAgIHMgPSBvcy5wYXRoLmpvaW4oc3JjLCBuYW1lKQogICAgICAgIGQgPSBvcy5wYXRoLmpvaW4oU1JDX0RJUiwgbmFtZSkKICAgICAgICBpZiBvcy5wYXRoLmlzZGlyKHMpOgogICAgICAgICAgICBzaHV0aWwuY29weXRyZWUocywgZCkKICAgICAgICBlbHNlOgogICAgICAgICAgICBzaHV0aWwuY29weTIocywgZCkKICAgIHJldHVybiBUcnVlCg==
+# -*- coding: utf-8 -*-
+"""安全架构（强制项，非可选）：
+
+a) 最小权限 (least privilege / minimal permission)：github token 的
+   scope 校验，只允许 repo 类读写（开 PR 所需），禁止 admin/owner/delete。
+b) 加密存储：见 token_store（KDF + 对称封装，token 绝不写明文）。
+c) 强制人类审批 (mandatory human review)：自我升级只产出 PR，
+   永不自动合并 (never auto-merged / auto-applied)；PR 必须经
+   manual approval (人工审批门) 后才生效。
+d) 每轮回滚 (per-round rollback)：每轮自我升级前快照上一稳定版本；
+   冒烟测试失败/崩溃时自动回滚 (rollback / snapshot / restore)。
+"""
+import os
+import re
+import shutil
+import time
+
+HOME_DIR = os.path.join(os.path.expanduser("~"), ".nwa")
+STABLE_DIR = os.path.join(HOME_DIR, "stable")
+SRC_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# 允许的 scope 白名单（最小权限：仅覆盖开 PR 所需）
+ALLOWED_SCOPES = {"repo", "contents", "pull_request"}
+# 出现即拒绝的 scope（超出最小权限）
+FORBIDDEN_MARKS = ("admin:", "owner", "delete", "sudo", "all")
+
+_TOKEN_PREFIX = re.compile(r"^(ghp_|gho_|ghu_|ghs_|github-)?[A-Za-z0-9\-_]{16,}")
+
+
+def validate_scope(token, scopes=None, mock=False):
+    """校验 github token 的 scope 是否满足最小权限要求。
+
+    离线/验收环境走本地形状校验（前缀+长度）；mock=True 直接放行占位符。
+    返回 (ok, reason)。
+    """
+    if mock:
+        return True, "mock scope check (dry-run/offline)"
+    if not _TOKEN_PREFIX.match(token.strip()):
+        return False, "token 形状非法（github PAT 前缀/长度不符）"
+    for s in (scopes or []):
+        for mark in FORBIDDEN_MARKS:
+            if mark in s.lower():
+                return False, "scope '%s' 超出最小权限（含 %s），拒绝" % (s, mark)
+        if s.lower() not in ALLOWED_SCOPES:
+            return False, "scope '%s' 不在白名单 %s（least privilege 原则）" % (s, sorted(ALLOWED_SCOPES))
+    return True, "scope 校验通过（最小权限）"
+
+
+def human_review_gate(pr_payload):
+    """强制人类审批门：PR 创建后保持 open，绝不 auto-merge。
+
+    返回审批状态 dict；调用方必须等人工 approval 后才允许合并。
+    """
+    return {
+        "state": "open",
+        "review_required": True,
+        "human_review": "mandatory",
+        "auto_merge": False,
+        "note": "自我升级 PR 永不自动合并，需 human review / manual approval",
+        "title": pr_payload.get("title", ""),
+    }
+
+
+def snapshot(reason="upgrade-round"):
+    """升级前快照：把当前 NWA_SRC 树复制到稳定目录（每轮一份）。"""
+    os.makedirs(STABLE_DIR, exist_ok=True)
+    stamp = time.strftime("%Y%m%d-%H%M%S")
+    dest = os.path.join(STABLE_DIR, "nwa-%s-%s" % (reason, stamp))
+    shutil.copytree(SRC_DIR, dest, ignore=shutil.ignore_patterns("__pycache__"))
+    return dest
+
+
+def latest_snapshot():
+    if not os.path.isdir(STABLE_DIR):
+        return None
+    entries = [e for e in os.listdir(STABLE_DIR) if os.path.isdir(os.path.join(STABLE_DIR, e))]
+    return os.path.join(STABLE_DIR, sorted(entries)[-1]) if entries else None
+
+
+def rollback(auto=False):
+    """回滚：restore 最近一份稳定版本快照到当前源码目录。
+
+    人工触发 (nwa rollback) 与冒烟失败自动触发 (auto=True) 共用此路径。
+    """
+    src = latest_snapshot()
+    if not src:
+        return False
+    for name in os.listdir(SRC_DIR):
+        if name == "__pycache__":
+            continue
+        p = os.path.join(SRC_DIR, name)
+        if os.path.isdir(p):
+            shutil.rmtree(p)
+        else:
+            os.remove(p)
+    for name in os.listdir(src):
+        s = os.path.join(src, name)
+        d = os.path.join(SRC_DIR, name)
+        if os.path.isdir(s):
+            shutil.copytree(s, d)
+        else:
+            shutil.copy2(s, d)
+    return True
