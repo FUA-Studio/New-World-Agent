@@ -1,1 +1,9 @@
-W0Rlc2t0b3AgRW50cnldClR5cGU9QXBwbGljYXRpb24KTmFtZT1OV0EgKE5ldyBXb3JsZCBBZ2VudCkKQ29tbWVudD1DTEkgQUkgYWdlbnQ6IHNlbGYtdXBncmFkZSAvIHJvbGxiYWNrIC8gZW5jcnlwdGVkIHRva2VuIHN0b3JlCkV4ZWM9bndhCkljb249dGVybWluYWwKVGVybWluYWw9dHJ1ZQpDYXRlZ29yaWVzPVV0aWxpdHk7RGV2ZWxvcG1lbnQ7ClN0YXJ0dXBXTUNsYXNzPW53YQo=
+[Desktop Entry]
+Type=Application
+Name=NWA (New World Agent)
+Comment=CLI AI agent: self-upgrade / rollback / encrypted token store
+Exec=nwa
+Icon=terminal
+Terminal=true
+Categories=Utility;Development;
+StartupWMClass=nwa
