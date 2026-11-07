@@ -1,1 +1,69 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIibndhIHNlbGZ0ZXN077ya5YaS54Of6Ieq5qOA77yIaW1wb3J0IC8gYmFubmVyIC8g5Y2H57qnIGRyeS1ydW4gLyDlm57mu5rmvJTnu4PvvInjgIIKCnNlbGYtdGVzdCDlhajpg6jnprvnur/lj6/ot5HvvIhtb2NrIExMTSArIOS4jeiBlOe9ke+8ie+8jOS5n+aYr+iHquaIkeWNh+e6p+avj+i9rueahArlhpLng5/mtYvor5UgKHNtb2tlIHRlc3Qp77ya5aSx6LSl5Y2z6Kem5Y+R6Ieq5Yqo5Zue5ruaIChhdXRvIHJvbGxiYWNrIHRyaWdnZXIp44CCCiIiIgppbXBvcnQgaW1wb3J0bGliCgpDSEVDS1MgPSBbCiAgICAiaW1wb3J0IiwKICAgICJiYW5uZXIiLAogICAgInVwZ3JhZGVfZHJ5cnVuIiwKICAgICJyb2xsYmFja19kcmlsbCIsCiAgICAidG9rZW5fZW5jcnlwdF9yb3VuZHRyaXAiLAogICAgInNjb3BlX3ZhbGlkYXRpb24iLApdCgoKZGVmIF90X2ltcG9ydCgpOgogICAgZm9yIG0gaW4gKCJiYW5uZXIiLCAidGhlbWUiLCAidXNhZ2UiLCAibGxtIiwgInRva2VuX3N0b3JlIiwgInNlY3VyaXR5IiwgInVwZ3JhZGUiLCAic2VsZnRlc3QiKToKICAgICAgICBpbXBvcnRsaWIuaW1wb3J0X21vZHVsZShtKQogICAgcmV0dXJuIFRydWUKCgpkZWYgX3RfYmFubmVyKCk6CiAgICBmcm9tIGJhbm5lciBpbXBvcnQgQkFOTkVSCiAgICByZXR1cm4gYm9vbChCQU5ORVIuc3RyaXAoKSkKCgpkZWYgX3RfdXBncmFkZV9kcnlydW4oKToKICAgIGltcG9ydCB1cGdyYWRlCiAgICBwYXlsb2FkID0gdXBncmFkZS5ydW5fc2VsZl91cGdyYWRlKGRyeV9ydW49VHJ1ZSwgcm91bmRfbm89MSkKICAgICMgZHJ5LXJ1biDlv4Xpobvkuqflh7ogUFIgcGF5bG9hZCDkuJTkuI3ogZTnvZEKICAgIHJldHVybiBib29sKHBheWxvYWQpIGFuZCBwYXlsb2FkLmdldCgiYm9keSIsIHt9KS5nZXQoInRpdGxlIiwgIiIpLnN0YXJ0c3dpdGgoIltOV0Egc2VsZi11cGdyYWRlXSIpCgoKZGVmIF90X3JvbGxiYWNrX2RyaWxsKCk6CiAgICBpbXBvcnQgc2VjdXJpdHkKICAgIHNuYXAgPSBzZWN1cml0eS5zbmFwc2hvdCgic2VsZnRlc3QtZHJpbGwiKQogICAgb2sgPSBzZWN1cml0eS5yb2xsYmFjaygpCiAgICByZXR1cm4gb2sgYW5kIGJvb2woc25hcCkKCgpkZWYgX3RfdG9rZW5fZW5jcnlwdCgpOgogICAgaW1wb3J0IHRva2VuX3N0b3JlCiAgICBub25jZSwgY3QgPSB0b2tlbl9zdG9yZS5lbmNyeXB0X3Rva2VuKCJ0ZXN0LWdpdGh1Yi10b2tlbi0xMjM0NTYiKQogICAgYmFjayA9IHRva2VuX3N0b3JlLmRlY3J5cHRfdG9rZW4obm9uY2UsIGN0KQogICAgcmV0dXJuIGJhY2sgPT0gInRlc3QtZ2l0aHViLXRva2VuLTEyMzQ1NiIKCgpkZWYgX3Rfc2NvcGVfdmFsaWRhdGlvbigpOgogICAgaW1wb3J0IHNlY3VyaXR5CiAgICBnb29kLCBfID0gc2VjdXJpdHkudmFsaWRhdGVfc2NvcGUoImdocF8iICsgImEiICogMjQsIHNjb3Blcz1bInJlcG8iLCAicHVsbF9yZXF1ZXN0Il0sIG1vY2s9RmFsc2UpCiAgICBiYWQsIF8gPSBzZWN1cml0eS52YWxpZGF0ZV9zY29wZSgiZ2hwXyIgKyAiYSIgKiAyNCwgc2NvcGVzPVsiYWRtaW46b3JnIl0sIG1vY2s9RmFsc2UpCiAgICByZXR1cm4gZ29vZCBhbmQgbm90IGJhZAoKCmRlZiBydW5fYWxsKGFmdGVyX3VwZ3JhZGU9RmFsc2UpOgogICAgIiIi5omn6KGM5YWo6YOoIHNlbGYtdGVzdOOAgmFmdGVyX3VwZ3JhZGU9VHJ1Ze+8iOWNh+e6p+WGkueDn++8ieaXtui3s+i/h+Wbnua7mua8lOe7g+OAgiIiIgogICAgcmVzdWx0cyA9IHsKICAgICAgICAiaW1wb3J0IjogX3RfaW1wb3J0KCksCiAgICAgICAgImJhbm5lciI6IF90X2Jhbm5lcigpLAogICAgICAgICJ1cGdyYWRlX2RyeXJ1biI6IF90X3VwZ3JhZGVfZHJ5cnVuKCksCiAgICAgICAgInRva2VuX2VuY3J5cHRfcm91bmR0cmlwIjogX3RfdG9rZW5fZW5jcnlwdCgpLAogICAgICAgICJzY29wZV92YWxpZGF0aW9uIjogX3Rfc2NvcGVfdmFsaWRhdGlvbigpLAogICAgfQogICAgaWYgbm90IGFmdGVyX3VwZ3JhZGU6CiAgICAgICAgcmVzdWx0c1sicm9sbGJhY2tfZHJpbGwiXSA9IF90X3JvbGxiYWNrX2RyaWxsKCkKICAgIHJldHVybiByZXN1bHRzCg==
+# -*- coding: utf-8 -*-
+"""nwa selftest：冒烟自检（import / banner / 升级 dry-run / 回滚演练）。
+
+self-test 全部离线可跑（mock LLM + 不联网），也是自我升级每轮的
+冒烟测试 (smoke test)：失败即触发自动回滚 (auto rollback trigger)。
+"""
+import importlib
+
+CHECKS = [
+    "import",
+    "banner",
+    "upgrade_dryrun",
+    "rollback_drill",
+    "token_encrypt_roundtrip",
+    "scope_validation",
+]
+
+
+def _t_import():
+    for m in ("banner", "theme", "usage", "llm", "token_store", "security", "upgrade", "selftest"):
+        importlib.import_module(m)
+    return True
+
+
+def _t_banner():
+    from banner import BANNER
+    return bool(BANNER.strip())
+
+
+def _t_upgrade_dryrun():
+    import upgrade
+    payload = upgrade.run_self_upgrade(dry_run=True, round_no=1)
+    # dry-run 必须产出 PR payload 且不联网
+    return bool(payload) and payload.get("body", {}).get("title", "").startswith("[NWA self-upgrade]")
+
+
+def _t_rollback_drill():
+    import security
+    snap = security.snapshot("selftest-drill")
+    ok = security.rollback()
+    return ok and bool(snap)
+
+
+def _t_token_encrypt():
+    import token_store
+    nonce, ct = token_store.encrypt_token("test-github-token-123456")
+    back = token_store.decrypt_token(nonce, ct)
+    return back == "test-github-token-123456"
+
+
+def _t_scope_validation():
+    import security
+    good, _ = security.validate_scope("ghp_" + "a" * 24, scopes=["repo", "pull_request"], mock=False)
+    bad, _ = security.validate_scope("ghp_" + "a" * 24, scopes=["admin:org"], mock=False)
+    return good and not bad
+
+
+def run_all(after_upgrade=False):
+    """执行全部 self-test。after_upgrade=True（升级冒烟）时跳过回滚演练。"""
+    results = {
+        "import": _t_import(),
+        "banner": _t_banner(),
+        "upgrade_dryrun": _t_upgrade_dryrun(),
+        "token_encrypt_roundtrip": _t_token_encrypt(),
+        "scope_validation": _t_scope_validation(),
+    }
+    if not after_upgrade:
+        results["rollback_drill"] = _t_rollback_drill()
+    return results
