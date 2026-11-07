@@ -1,1 +1,62 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIiTldBIOS4u+mimOaoquW5he+8mua3see7vyArIOmTtueBsO+8iGRlZXAgZ3JlZW4gKyBzaWx2ZXIgZ3Jhee+8ieOAgiIiIgppbXBvcnQgb3MKaW1wb3J0IHN5cwoKX05PX0NPTE9SID0gb3MuZW52aXJvbi5nZXQoIk5PX0NPTE9SIikKX0lTX1RUWSA9IGhhc2F0dHIoc3lzLnN0ZG91dCwgImlzYXR0eSIpIGFuZCBzeXMuc3Rkb3V0LmlzYXR0eSgpCkVOQUJMRV9DT0xPUiA9IF9OT19DT0xPUiBpcyBOb25lIGFuZCBfSVNfVFRZCgpfREVFUCA9ICJceDFiWzM4OzI7MjA7ODM7NDVtIiAgICAgICMg5rex57u/ICMxNDUzMmQKX1NJTCA9ICJceDFiWzM4OzI7MTkyOzE5MjsxOTJtIiAgICAjIOmTtueBsCAjYzBjMGMwCmlmIG5vdCBFTkFCTEVfQ09MT1I6CiAgICBfREVFUCA9ICIiCiAgICBfU0lMID0gIiIKCkdSRUVOID0gX0RFRVAgICAgICAgICAgICAgICAgICAgICAgICMg5Li76ImyIGRlZXAgZ3JlZW4KR1JFRU5fREFSSyA9ICJceDFiWzM4OzI7Njs3ODs1OW0iIGlmIEVOQUJMRV9DT0xPUiBlbHNlICIiClNJTFZFUiA9IF9TSUwgICAgICAgICAgICAgICAgICAgICAgIyDkuLvoibIgc2lsdmVyIGdyYXkKU0lMVkVSX0RJTSA9ICJceDFiWzM4OzI7MTQwOzE0MDsxNDBtIiBpZiBFTkFCTEVfQ09MT1IgZWxzZSAiIgpSRVNFVCA9ICJceDFiWzBtIiBpZiBFTkFCTEVfQ09MT1IgZWxzZSAiIgpCT0xEID0gIlx4MWJbMW0iIGlmIEVOQUJMRV9DT0xPUiBlbHNlICIiCkRJTSA9ICJceDFiWzJtIiBpZiBFTkFCTEVfQ09MT1IgZWxzZSAiIgoKCmRlZiBfYyhjb2RlLCBzKToKICAgIHJldHVybiAoY29kZSArIHMgKyAoUkVTRVQgaWYgRU5BQkxFX0NPTE9SIGVsc2UgIiIpKSBpZiBjb2RlIGVsc2UgcwoKCmRlZiBjeWFuKHMpOgogICAgcmV0dXJuIF9jKCgiXHgxYlszODsyOzA7MTkwOzIxMG0iIGlmIEVOQUJMRV9DT0xPUiBlbHNlICIiKSwgcykKCgpkZWYgeWVsbG93KHMpOgogICAgcmV0dXJuIF9jKCgiXHgxYlszODsyOzIzMDsyMDA7ODBtIiBpZiBFTkFCTEVfQ09MT1IgZWxzZSAiIiksIHMpCgoKZGVmIHJlZChzKToKICAgIHJldHVybiBfYygoIlx4MWJbMzg7MjsyMjA7OTA7OTBtIiBpZiBFTkFCTEVfQ09MT1IgZWxzZSAiIiksIHMpCgoKZGVmIGdyYXkocyk6CiAgICByZXR1cm4gX2MoU0lMVkVSX0RJTSwgcykKCgpkZWYgZ3JlZW4ocyk6CiAgICByZXR1cm4gX2MoR1JFRU4sIHMpCgoKZGVmIGJvbGQocyk6CiAgICByZXR1cm4gX2MoQk9MRCwgcykKCgpfbGluZXMgPSBbCiAgICAiICAgIyMjIyAgIyMjIyMgIyMjIyMgICMjIyMgICMgICAgIyAgIyAgICAjICAjIyMjIyAgIyAgICMiLAogICAgIiAgIyAgICAgICMgICAgIyAgICMgIyAgICAjICMjICAgIyAgIyAgICAjICMgICAgIyAjICAgIyAgIiwKICAgICIgICMgICAgICAjICAgICMgICAjICMgICAgICAjICMgICMgICAjICAgICMgIyAgICAjICMgICAjICAiLAogICAgIiAgIyAgICMjICMgICAgIyMjIyMgICMgICMgICMgIyAgIyAgICMjIyMjICAjICAgICMjICAjICAgIiwKICAgICIgICAjIyMjIyAjICAgICMgICAjICAjIyMjICAgIyMgICMgICAjICAgICMgICMjIyMjICMgICAjICIsCl0KQkFOTkVSID0gU0lMVkVSICsgIlxuIi5qb2luKF9saW5lcykgKyBSRVNFVCArICJcbiIKQkFOTkVSICs9IEdSRUVOX0RBUksgKyAiICAgTldBIMK3IE5ldyBXb3JsZCBBZ2VudCDCtyBkZWVwIGdyZWVuICsgc2lsdmVyIGdyYXkgdGhlbWVcbiIKQkFOTkVSICs9IEdSRUVOX0RBUksgKyAiICAgc2VsZi11cGdyYWRlIChQUiwgaHVtYW4gcmV2aWV3IG9ubHkpIMK3IGVuY3J5cHRlZCB0b2tlbiBzdG9yZSDCtyByb2xsYmFja1xuIgo=
+# -*- coding: utf-8 -*-
+"""NWA 主题横幅：深绿 + 银灰（deep green + silver gray）。"""
+import os
+import sys
+
+_NO_COLOR = os.environ.get("NO_COLOR")
+_IS_TTY = hasattr(sys.stdout, "isatty") and sys.stdout.isatty()
+ENABLE_COLOR = _NO_COLOR is None and _IS_TTY
+
+_DEEP = "\x1b[38;2;20;83;45m"      # 深绿 #14532d
+_SIL = "\x1b[38;2;192;192;192m"    # 银灰 #c0c0c0
+if not ENABLE_COLOR:
+    _DEEP = ""
+    _SIL = ""
+
+GREEN = _DEEP                       # 主色 deep green
+GREEN_DARK = "\x1b[38;2;6;78;59m" if ENABLE_COLOR else ""
+SILVER = _SIL                      # 主色 silver gray
+SILVER_DIM = "\x1b[38;2;140;140;140m" if ENABLE_COLOR else ""
+RESET = "\x1b[0m" if ENABLE_COLOR else ""
+BOLD = "\x1b[1m" if ENABLE_COLOR else ""
+DIM = "\x1b[2m" if ENABLE_COLOR else ""
+
+
+def _c(code, s):
+    return (code + s + (RESET if ENABLE_COLOR else "")) if code else s
+
+
+def cyan(s):
+    return _c(("\x1b[38;2;0;190;210m" if ENABLE_COLOR else ""), s)
+
+
+def yellow(s):
+    return _c(("\x1b[38;2;230;200;80m" if ENABLE_COLOR else ""), s)
+
+
+def red(s):
+    return _c(("\x1b[38;2;220;90;90m" if ENABLE_COLOR else ""), s)
+
+
+def gray(s):
+    return _c(SILVER_DIM, s)
+
+
+def green(s):
+    return _c(GREEN, s)
+
+
+def bold(s):
+    return _c(BOLD, s)
+
+
+_lines = [
+    "   ####  ##### #####  ####  #    #  #    #  #####  #   #",
+    "  #      #    #   # #    # ##   #  #    # #    # #   #  ",
+    "  #      #    #   # #      # #  #   #    # #    # #   #  ",
+    "  #   ## #    #####  #  #  # #  #   #####  #    ##  #   ",
+    "   ##### #    #   #  ####   ##  #   #    #  ##### #   # ",
+]
+BANNER = SILVER + "\n".join(_lines) + RESET + "\n"
+BANNER += GREEN_DARK + "   NWA · New World Agent · deep green + silver gray theme\n"
+BANNER += GREEN_DARK + "   self-upgrade (PR, human review only) · encrypted token store · rollback\n"
