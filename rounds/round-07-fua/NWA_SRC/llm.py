@@ -1,1 +1,48 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIiTExNIOiwg+eUqOaOpeWPo++8muaUr+aMgSBPcGVuQUkg5YW85a65IEFQSe+8iOeOr+Wig+WPmOmHjyBOV0FfQVBJX0JBU0UgLyBOV0FfQVBJX0tFWe+8ieOAggoK5peg5a+G6ZKl5pe26Ieq5Yqo6ZmN57qn5Li65pys5ZywIG1vY2sg5bqU562U77yM5L+d6K+B56a757q/L0NJL+mqjOaUtueOr+Wig+WPr+i/kOihjArvvIhkcnktcnVu44CBc2VsZnRlc3Qg5Z2H5LiN5L6d6LWW572R57uc77yJ44CCCiIiIgppbXBvcnQganNvbgppbXBvcnQgb3MKaW1wb3J0IHVybGxpYi5yZXF1ZXN0CgpBUElfQkFTRSA9IG9zLmVudmlyb24uZ2V0KCJOV0FfQVBJX0JBU0UiLCAiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSIpCkFQSV9LRVkgPSBvcy5lbnZpcm9uLmdldCgiTldBX0FQSV9LRVkiLCAiIikKTU9ERUwgPSBvcy5lbnZpcm9uLmdldCgiTldBX01PREVMIiwgImdwdC00by1taW5pIikKCk1PQ0sgPSBub3QgQVBJX0tFWQoKCmRlZiBpc19tb2NrKCk6CiAgICByZXR1cm4gTU9DSwoKCmRlZiBjYWxsX2xsbShwcm9tcHQsIGhpc3Rvcnk9Tm9uZSk6CiAgICAiIiLljZXova7lr7nor53jgILnnJ/lrp7mqKHlvI/otbAgSFRUUO+8m21vY2sg5qih5byP57uZ56Gu5a6a5oCn5pys5Zyw5bqU562U44CCIiIiCiAgICBoaXN0b3J5ID0gaGlzdG9yeSBvciBbXQogICAgaWYgTU9DSzoKICAgICAgICByZXR1cm4gX21vY2tfcmVwbHkocHJvbXB0LCBoaXN0b3J5KQogICAgbXNncyA9IFt7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogaH0gZm9yIGggaW4gaGlzdG9yeVstNTpdXQogICAgbXNncy5hcHBlbmQoeyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6IHByb21wdH0pCiAgICBwYXlsb2FkID0ganNvbi5kdW1wcyh7Im1vZGVsIjogTU9ERUwsICJtZXNzYWdlcyI6IG1zZ3N9KS5lbmNvZGUoKQogICAgcmVxID0gdXJsbGliLnJlcXVlc3QuUmVxdWVzdCgKICAgICAgICBBUElfQkFTRSArICIvY2hhdC9jb21wbGV0aW9ucyIsCiAgICAgICAgZGF0YT1wYXlsb2FkLAogICAgICAgIGhlYWRlcnM9eyJDb250ZW50LVR5cGUiOiAiYXBwbGljYXRpb24vanNvbiIsCiAgICAgICAgICAgICAgICAgIkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyBBUElfS0VZfSkKICAgIHdpdGggdXJsbGliLnJlcXVlc3QudXJsb3BlbihyZXEsIHRpbWVvdXQ9NjApIGFzIHJlc3A6CiAgICAgICAgZGF0YSA9IGpzb24ubG9hZHMocmVzcC5yZWFkKCkuZGVjb2RlKCkpCiAgICByZXR1cm4gZGF0YVsiY2hvaWNlcyJdWzBdWyJtZXNzYWdlIl1bImNvbnRlbnQiXQoKCmRlZiBfbW9ja19yZXBseShwcm9tcHQsIGhpc3RvcnkpOgogICAgcCA9IHByb21wdC5sb3dlcigpCiAgICBpZiAiYmFubmVyIiBpbiBwIG9yICLmqKrluYUiIGluIHA6CiAgICAgICAgcmV0dXJuICJOV0Eg5qiq5bmF77ya5rex57u/ICMxNDUzMmQgKyDpk7bngbAgI2MwYzBjMCDkuLvpopjjgIIiCiAgICBpZiAidG9rZW4iIGluIHAgb3IgIuWvhumSpSIgaW4gcDoKICAgICAgICByZXR1cm4gImdpdGh1YiB0b2tlbiDku4XliqDlr4blrZjlgqjvvIhLREYg5rS+55Sf5a+G6ZKl77yJ77yM57ud5LiN5YaZ5piO5paH77ybc2NvcGUg6ZmQ5a6a5Y2V5LuT5pyA5bCP5p2D6ZmQ44CCIgogICAgaWYgIuWNh+e6pyIgaW4gcCBvciAidXBncmFkZSIgaW4gcDoKICAgICAgICByZXR1cm4gIuiHquaIkeWNh+e6p+aMieWRqOacnyA3LzE0LzMwLzYwIOWkqei/kOihjO+8jOW8uuW6piBsb3cuLlVMVFJB77yM5Lqn5Ye6IFBSIOmcgOS6uuW3peWuoeaJueOAgiIKICAgIHJldHVybiAiW21vY2tdIOW3suaUtuWIsO+8miVz77yI56a757q/5qih5byP77yM6K6+572uIE5XQV9BUElfS0VZIOWPr+WIh+aNouecn+WunuaooeWei++8iSIgJSBwcm9tcHRbOjQwXQo=
+# -*- coding: utf-8 -*-
+"""LLM 调用接口：支持 OpenAI 兼容 API（环境变量 NWA_API_BASE / NWA_API_KEY）。
+
+无密钥时自动降级为本地 mock 应答，保证离线/CI/验收环境可运行
+（dry-run、selftest 均不依赖网络）。
+"""
+import json
+import os
+import urllib.request
+
+API_BASE = os.environ.get("NWA_API_BASE", "https://api.openai.com/v1")
+API_KEY = os.environ.get("NWA_API_KEY", "")
+MODEL = os.environ.get("NWA_MODEL", "gpt-4o-mini")
+
+MOCK = not API_KEY
+
+
+def is_mock():
+    return MOCK
+
+
+def call_llm(prompt, history=None):
+    """单轮对话。真实模式走 HTTP；mock 模式给确定性本地应答。"""
+    history = history or []
+    if MOCK:
+        return _mock_reply(prompt, history)
+    msgs = [{"role": "user", "content": h} for h in history[-5:]]
+    msgs.append({"role": "user", "content": prompt})
+    payload = json.dumps({"model": MODEL, "messages": msgs}).encode()
+    req = urllib.request.Request(
+        API_BASE + "/chat/completions",
+        data=payload,
+        headers={"Content-Type": "application/json",
+                 "Authorization": "Bearer " + API_KEY})
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        data = json.loads(resp.read().decode())
+    return data["choices"][0]["message"]["content"]
+
+
+def _mock_reply(prompt, history):
+    p = prompt.lower()
+    if "banner" in p or "横幅" in p:
+        return "NWA 横幅：深绿 #14532d + 银灰 #c0c0c0 主题。"
+    if "token" in p or "密钥" in p:
+        return "github token 仅加密存储（KDF 派生密钥），绝不写明文；scope 限定单仓最小权限。"
+    if "升级" in p or "upgrade" in p:
+        return "自我升级按周期 7/14/30/60 天运行，强度 low..ULTRA，产出 PR 需人工审批。"
+    return "[mock] 已收到：%s（离线模式，设置 NWA_API_KEY 可切换真实模型）" % prompt[:40]
