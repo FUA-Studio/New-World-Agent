@@ -1,1 +1,74 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiJOV0Eg5qGM6Z2iIEdVSSDmiJDlk4HvvIh0a2ludGVy77yJ77ya5qiq5bmFIC8g5Lya6K+dIC8g6Ieq5qOA44CCCgrkuLvpopjkuI4gQ0xJIOWFseeUqCBOV0FfU1JDL3RoZW1lLnB577yaZGVlcCBncmVlbiAjMTQ1MzJkICsgc2lsdmVyIGdyYXkgI2MwYzBjMOOAggrnlKjms5U6IHB5dGhvbjMgbndhX2d1aS5weSAgIO+8iOmcgCBweXRob24zLXRr77yJCiIiIgppbXBvcnQgb3MKaW1wb3J0IHN5cwoKX0hFUkUgPSBvcy5wYXRoLmRpcm5hbWUob3MucGF0aC5hYnNwYXRoKF9fZmlsZV9fKSkKIyDlhbzlrrnkuInnp43luIPlsYDvvJrku5PlupPlhoUgTldBX01BSU4vZ3VpL+OAgeWNleaWh+S7tuWMheagueebruW9leOAgX4vLm53YV9wa2cKZm9yIF9jYW5kIGluIChvcy5wYXRoLmpvaW4oX0hFUkUsICJOV0FfU1JDIiksCiAgICAgICAgICAgICAgb3MucGF0aC5qb2luKF9IRVJFLCAiLi4iLCAiTldBX1NSQyIpLAogICAgICAgICAgICAgIG9zLnBhdGguam9pbihfSEVSRSwgIi4uIiwgIi4uIiwgIk5XQV9TUkMiKSwKICAgICAgICAgICAgICBvcy5wYXRoLmpvaW4ob3MucGF0aC5leHBhbmR1c2VyKCJ+IiksICIubndhX3BrZyIsICJOV0FfU1JDIikpOgogICAgaWYgb3MucGF0aC5pc2RpcihfY2FuZCk6CiAgICAgICAgc3lzLnBhdGguaW5zZXJ0KDAsIF9jYW5kKQogICAgICAgIGJyZWFrCgp0cnk6CiAgICBpbXBvcnQgdGtpbnRlciBhcyB0awpleGNlcHQgRXhjZXB0aW9uOgogICAgcHJpbnQoIumcgOimgSBweXRob24zLXRr77yIc3VkbyBhcHQgaW5zdGFsbCBweXRob24zLXRr77yJIikKICAgIHN5cy5leGl0KDEpCgpmcm9tIHRoZW1lIGltcG9ydCBERUVQX0dSRUVOLCBERUVQX0dSRUVOXzIsIFNJTFZFUl9HUkFZLCBHUkFZXzIKZnJvbSBiYW5uZXIgaW1wb3J0IEJBTk5FUgppbXBvcnQgbWFpbiBhcyBud2FfaW1wbAoKCmRlZiBfcnVuX3NlbGZ0ZXN0KCk6CiAgICBmcm9tIHNlbGZ0ZXN0IGltcG9ydCBydW5fYWxsCiAgICByZXMgPSBydW5fYWxsKCkKICAgIHByaW50KCJzZWxmLXRlc3Qg57uT5p6cOiIsIHtrOiAoIlBBU1MiIGlmIHYgZWxzZSAiRkFJTCIpIGZvciBrLCB2IGluIHJlcy5pdGVtcygpfSkKICAgIHJldHVybiByZXMKCgpkZWYgbWFpbigpOgogICAgcm9vdCA9IHRrLlRrKCkKICAgIHJvb3QudGl0bGUoIk5XQSDCtyBOZXcgV29ybGQgQWdlbnQiKQogICAgcm9vdC5jb25maWd1cmUoYmc9U0lMVkVSX0dSQVkpCiAgICByb290Lmdlb21ldHJ5KCI3MjB4NDgwIikKCiAgICB0ay5MYWJlbChyb290LCB0ZXh0PUJBTk5FUi5zcGxpdGxpbmVzKClbMF0gaWYgQkFOTkVSIGVsc2UgIk5XQSIsCiAgICAgICAgICAgICBiZz1ERUVQX0dSRUVOLCBmZz0id2hpdGUiLCBmb250PSgiQ291cmllciIsIDEyKSkucGFjayhwYWR5PTgpCgogICAgYm94ID0gdGsuVGV4dChyb290LCB3aWR0aD05MCwgaGVpZ2h0PTE4LCBiZz1ERUVQX0dSRUVOXzIsIGZnPSJ3aGl0ZSIsCiAgICAgICAgICAgICAgICAgIGluc2VydGJhY2tncm91bmQ9U0lMVkVSX0dSQVkpCiAgICBib3gucGFjayhwYWR4PTEwLCBwYWR5PTQpCgogICAgZGVmIHNlbmQoKToKICAgICAgICBpbXBvcnQgbGxtCiAgICAgICAgcSA9IGVudHJ5LmdldCgpLnN0cmlwKCkKICAgICAgICBpZiBub3QgcToKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgYm94Lmluc2VydCgiZW5kIiwgIlxu5L2gOiAlc1xuIiAlIHEpCiAgICAgICAgYm94Lmluc2VydCgiZW5kIiwgIk5XQTogJXNcbiIgJSBsbG0uY2FsbF9sbG0ocSkpCiAgICAgICAgZW50cnkuZGVsZXRlKDAsICJlbmQiKQogICAgICAgIGJveC5zZWUoImVuZCIpCgogICAgZW50cnkgPSB0ay5FbnRyeShyb290LCB3aWR0aD05MCkKICAgIGVudHJ5LmJpbmQoIjxSZXR1cm4+IiwgbGFtYmRhIGU6IHNlbmQoKSkKICAgIGVudHJ5LnBhY2socGFkeD0xMCkKCiAgICB0ay5CdXR0b24ocm9vdCwgdGV4dD0ic2VsZnRlc3QiLCBiZz1HUkFZXzIsIGNvbW1hbmQ9X3J1bl9zZWxmdGVzdCkucGFjayhzaWRlPSJsZWZ0IiwgcGFkeD02LCBwYWR5PTYpCiAgICB0ay5CdXR0b24ocm9vdCwgdGV4dD0iYmFubmVyIiwgYmc9R1JBWV8yLAogICAgICAgICAgICAgIGNvbW1hbmQ9bGFtYmRhOiBib3guaW5zZXJ0KCJlbmQiLCBCQU5ORVIgKyAiXG4iKSkucGFjayhzaWRlPSJsZWZ0IikKICAgIHRrLkJ1dHRvbihyb290LCB0ZXh0PSLlj5HpgIEiLCBiZz1ERUVQX0dSRUVOLCBjb21tYW5kPXNlbmQpLnBhY2soc2lkZT0ibGVmdCIsIHBhZHg9NikKICAgIHJvb3QubWFpbmxvb3AoKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""NWA 桌面 GUI 成品（tkinter）：横幅 / 会话 / 自检。
+
+主题与 CLI 共用 NWA_SRC/theme.py：deep green #14532d + silver gray #c0c0c0。
+用法: python3 nwa_gui.py   （需 python3-tk）
+"""
+import os
+import sys
+
+_HERE = os.path.dirname(os.path.abspath(__file__))
+# 兼容三种布局：仓库内 NWA_MAIN/gui/、单文件包根目录、~/.nwa_pkg
+for _cand in (os.path.join(_HERE, "NWA_SRC"),
+              os.path.join(_HERE, "..", "NWA_SRC"),
+              os.path.join(_HERE, "..", "..", "NWA_SRC"),
+              os.path.join(os.path.expanduser("~"), ".nwa_pkg", "NWA_SRC")):
+    if os.path.isdir(_cand):
+        sys.path.insert(0, _cand)
+        break
+
+try:
+    import tkinter as tk
+except Exception:
+    print("需要 python3-tk（sudo apt install python3-tk）")
+    sys.exit(1)
+
+from theme import DEEP_GREEN, DEEP_GREEN_2, SILVER_GRAY, GRAY_2
+from banner import BANNER
+import main as nwa_impl
+
+
+def _run_selftest():
+    from selftest import run_all
+    res = run_all()
+    print("self-test 结果:", {k: ("PASS" if v else "FAIL") for k, v in res.items()})
+    return res
+
+
+def main():
+    root = tk.Tk()
+    root.title("NWA · New World Agent")
+    root.configure(bg=SILVER_GRAY)
+    root.geometry("720x480")
+
+    tk.Label(root, text=BANNER.splitlines()[0] if BANNER else "NWA",
+             bg=DEEP_GREEN, fg="white", font=("Courier", 12)).pack(pady=8)
+
+    box = tk.Text(root, width=90, height=18, bg=DEEP_GREEN_2, fg="white",
+                  insertbackground=SILVER_GRAY)
+    box.pack(padx=10, pady=4)
+
+    def send():
+        import llm
+        q = entry.get().strip()
+        if not q:
+            return
+        box.insert("end", "\n你: %s\n" % q)
+        box.insert("end", "NWA: %s\n" % llm.call_llm(q))
+        entry.delete(0, "end")
+        box.see("end")
+
+    entry = tk.Entry(root, width=90)
+    entry.bind("<Return>", lambda e: send())
+    entry.pack(padx=10)
+
+    tk.Button(root, text="selftest", bg=GRAY_2, command=_run_selftest).pack(side="left", padx=6, pady=6)
+    tk.Button(root, text="banner", bg=GRAY_2,
+              command=lambda: box.insert("end", BANNER + "\n")).pack(side="left")
+    tk.Button(root, text="发送", bg=DEEP_GREEN, command=send).pack(side="left", padx=6)
+    root.mainloop()
+
+
+if __name__ == "__main__":
+    main()
