@@ -1,1 +1,23 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiJOV0Eg6aG25bGC5Y+v6L+Q6KGM5YWl5Y+j77yIUFIg6KeE6IyD77ya6aG25bGCIG1haW4ucHkg4oaSIOa6kOeggeWcqCBOV0FfU1JDL++8ieOAggoK55So5rOV56S65L6LOgogIHB5dGhvbjMgbWFpbi5weSAtLWhlbHAKICBweXRob24zIG1haW4ucHkgZmlyc3QtYm9vdAogIHB5dGhvbjMgbWFpbi5weSBzZWxmLXVwZ3JhZGUgLS1kcnktcnVuCiAgcHl0aG9uMyBtYWluLnB5IHNlbGZ0ZXN0CiIiIgppbXBvcnQgb3MKaW1wb3J0IHN5cwoKX0hFUkUgPSBvcy5wYXRoLmRpcm5hbWUob3MucGF0aC5hYnNwYXRoKF9fZmlsZV9fKSkKc3lzLnBhdGguaW5zZXJ0KDAsIG9zLnBhdGguam9pbihfSEVSRSwgIk5XQV9TUkMiKSkKCiMg6aG25bGC5YWl5Y+j5LiOIE5XQV9TUkMvbWFpbi5weSDlkIzlkI3vvIznm7TmjqXmjInmqKHlnZflkI3lj5blrp7njrDvvJoKIyDohJrmnKzoh6rouqvku6UgX19tYWluX18g6L+Q6KGM77yM5LiN5Lya5LiOIE5XQV9TUkMvbWFpbiDmqKHlnZflhrLnqoHjgIIKaW1wb3J0IGltcG9ydGxpYgpfaW1wbCA9IGltcG9ydGxpYi5pbXBvcnRfbW9kdWxlKCJtYWluIiwgcGFja2FnZT1Ob25lKQoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIF9pbXBsLm1haW4oKQo=
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""NWA 顶层可运行入口（PR 规范：顶层 main.py → 源码在 NWA_SRC/）。
+
+用法示例:
+  python3 main.py --help
+  python3 main.py first-boot
+  python3 main.py self-upgrade --dry-run
+  python3 main.py selftest
+"""
+import os
+import sys
+
+_HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(_HERE, "NWA_SRC"))
+
+# 顶层入口与 NWA_SRC/main.py 同名，直接按模块名取实现：
+# 脚本自身以 __main__ 运行，不会与 NWA_SRC/main 模块冲突。
+import importlib
+_impl = importlib.import_module("main", package=None)
+
+if __name__ == "__main__":
+    _impl.main()
