@@ -1,0 +1,12 @@
+#!/bin/sh
+# NWA CLI 终端 wrapper（LINUX/CLI 成品）：找到 NWA 根目录并转发到 main.py
+set -e
+HERE="$(cd "$(dirname "$0")" && pwd)"
+# 向上找 NWA 根（含 NWA_SRC 的目录）
+ROOT="$HERE"
+i=0
+while [ ! -d "$ROOT/NWA_SRC" ] && [ "$i" -lt 6 ]; do
+  ROOT="$(dirname "$ROOT")"; i=$((i+1))
+done
+[ -d "$ROOT/NWA_SRC" ] || { echo "NWA 根目录缺失（找不到 NWA_SRC）" >&2; exit 1; }
+exec python3 "$ROOT/main.py" "$@"

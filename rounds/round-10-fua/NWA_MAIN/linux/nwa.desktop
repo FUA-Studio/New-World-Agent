@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=NWA (New World Agent)
+Comment=CLI AI agent: self-upgrade / rollback / encrypted token store
+Exec=nwa
+Icon=terminal
+Terminal=true
+Categories=Utility;Development;
+StartupWMClass=nwa
