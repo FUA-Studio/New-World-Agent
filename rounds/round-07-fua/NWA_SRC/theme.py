@@ -1,1 +1,33 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0KIiIiTldBIOS4u+mimOmFjeiJsu+8muS4u+iJsuS4uua3see7vyAoZGVlcCBncmVlbikg5LiO6ZO254GwIChzaWx2ZXIgZ3JheSnjgIIKCue7iOerr+WPluiJsuivtOaYju+8mgotIOa3see7v++8muS4u+iJsiAjMTQ1MzJk77yI5aKo57u/77yJLyAjMDY0ZTNi77yI5rex5p2+57u/77yJ77yM6auY5LquICMyZjg1NWEKLSDpk7bngbDvvJrkuLvoibIgI2MwYzBjMO+8iHNpbHZlcu+8ie+8jOasoee6pyAjOWNhM2FmIC8gIzgwODA4MO+8iGdyYXnvvIkKR1VJL+ahjOmdouaIkOWTge+8iE5XQV9NQUlOIOWGhe+8ieayv+eUqOWQjOS4gOWllyBQQUxFVFRF44CCCiIiIgoKREVFUF9HUkVFTiA9ICIjMTQ1MzJkIgpERUVQX0dSRUVOXzIgPSAiIzA2NGUzYiIKR1JFRU5fQUNDRU5UID0gIiMyZjg1NWEiCgpTSUxWRVJfR1JBWSA9ICIjYzBjMGMwIgpHUkFZXzIgPSAiIzljYTNhZiIKR1JBWV8zID0gIiM4MDgwODAiCgpQQUxFVFRFID0gewogICAgInByaW1hcnkiOiBERUVQX0dSRUVOLCAgICAgICAgICAjIGRlZXAgZ3JlZW4g5Li76ImyCiAgICAicHJpbWFyeV9kYXJrIjogREVFUF9HUkVFTl8yLAogICAgImFjY2VudCI6IEdSRUVOX0FDQ0VOVCwKICAgICJzZWNvbmRhcnkiOiBTSUxWRVJfR1JBWSwgICAgICAjIHNpbHZlciBncmF5IOS4u+iJsgogICAgInNlY29uZGFyeV9kaW0iOiBHUkFZXzIsCiAgICAiYmdfbGlnaHQiOiAiI2Y0ZjRmNCIsCiAgICAidGV4dF9vbl9kYXJrIjogU0lMVkVSX0dSQVksCn0KClRIRU1FX05BTUUgPSAiZGVlcC1ncmVlbi1zaWx2ZXItZ3JheSIKCgpkZWYgY3NzX3ZhcmlhYmxlcygpOgogICAgIiIi5L6bIEdVSS9XRUIg5oiQ5ZOB5rOo5YWl55qEIENTUyDlj5jph4/vvIjkuLvpopjkuI4gQ0xJIOWFseS6q++8ieOAgiIiIgogICAgcmV0dXJuICJcbiIuam9pbigiJXM6ICVzOyIgJSAoaywgdikgZm9yIGssIHYgaW4gUEFMRVRURS5pdGVtcygpKQo=
+# -*- coding: utf-8 -*-
+"""NWA 主题配色：主色为深绿 (deep green) 与银灰 (silver gray)。
+
+终端取色说明：
+- 深绿：主色 #14532d（墨绿）/ #064e3b（深松绿），高亮 #2f855a
+- 银灰：主色 #c0c0c0（silver），次级 #9ca3af / #808080（gray）
+GUI/桌面成品（NWA_MAIN 内）沿用同一套 PALETTE。
+"""
+
+DEEP_GREEN = "#14532d"
+DEEP_GREEN_2 = "#064e3b"
+GREEN_ACCENT = "#2f855a"
+
+SILVER_GRAY = "#c0c0c0"
+GRAY_2 = "#9ca3af"
+GRAY_3 = "#808080"
+
+PALETTE = {
+    "primary": DEEP_GREEN,          # deep green 主色
+    "primary_dark": DEEP_GREEN_2,
+    "accent": GREEN_ACCENT,
+    "secondary": SILVER_GRAY,      # silver gray 主色
+    "secondary_dim": GRAY_2,
+    "bg_light": "#f4f4f4",
+    "text_on_dark": SILVER_GRAY,
+}
+
+THEME_NAME = "deep-green-silver-gray"
+
+
+def css_variables():
+    """供 GUI/WEB 成品注入的 CSS 变量（主题与 CLI 共享）。"""
+    return "\n".join("%s: %s;" % (k, v) for k, v in PALETTE.items())
